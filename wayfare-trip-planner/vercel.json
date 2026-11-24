@@ -1,12 +1,13 @@
+
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
     "client": {
-      "root": "wayfare-trip-planner/client",
+      "root": "client",
       "framework": "vite"
     },
     "server": {
-      "root": "wayfare-trip-planner/server",
+      "root": "server",
       "framework": "express"
     }
   },
